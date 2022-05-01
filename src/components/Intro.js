@@ -12,7 +12,7 @@ export default function Header(){
             </section>
             <section className="links">
                 <button className= "button" type='button'><a href="arniqua_c@yahoo.com">Email</a></button>
-                <button className = "button" type='button'><a href="https://www.linkedin.com/in/arniqua-c/">LinkedIn</a></button>
+                {/* <button className = "button" type='button'><a href="https://www.linkedin.com/in/arniqua-c/">LinkedIn</a></button> */}
             </section>
         </div>
 

@@ -15,11 +15,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin:1% 0 5% 35%;
+  margin:1% 0 5% 32%;
+  overflow: hidden;
 }
 
 .businessCard{
-  background-color: rgb(209, 243, 19);
+  background-image:linear-gradient(to top right, rgb(249, 35, 142), gold);
+  /* background-color: rgb(209, 243, 19); */
   color:black;
   width:54%;
   padding:1% 5%;
@@ -39,8 +41,15 @@ body {
   text-align: center;
 }
 .aboutMe, .interests{
-  padding:2%;
+  padding:2% 0;
   font-size: 1.65rem;
+}
+.aboutMe > p, .interests > p{
+  font-family: sans-serif;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+  font-size: 1.65rem;
+  line-height: 1.25em;
 }
 .info h1{
   font-size:2.5rem;
@@ -49,19 +58,22 @@ body {
   font-size: 1.7rem;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
+  color:#FEFEFE;
 }
 .info > a{
   font-size: 1.7rem;
+  color:purple;
 }
 button{
-  background-color:white;
+  background-color:#FEFEFE;
   color: black;
-  border-color:rgb(209, 243, 19);
+  border-color:orange;
   border-radius: 0.6rem;
-  width:8rem;
+  width:10rem;
+  height:4rem;
   margin:5px 5px 0 0;
   padding:5%;
-  opacity:0.9;
+  opacity:0.8;
 }
 button:hover{
   background-color: orange;
@@ -69,15 +81,17 @@ button:hover{
   border-color: orange;
 }
 button > a{
-  color:gray;
+  color:rgb(249, 35, 142);
   text-decoration: none;
-  /* font-weight: 600; */
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-transform: uppercase;
 }
 button > a:hover{
   color:white;
 }
 .headerImage{
-  width:58%;
+  width:54%;
   border-radius: 20em;
   border:2px solid white;
   box-shadow: 2px 4px white;
