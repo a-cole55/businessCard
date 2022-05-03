@@ -21,17 +21,12 @@ body {
 
 .businessCard{
   background-image:linear-gradient(to top right, rgb(249, 35, 142), gold);
-  /* background-color: rgb(209, 243, 19); */
   color:black;
   width:54%;
   padding:1% 5%;
-  /* opacity:.9; */
   font-family: 'PT Sans', sans-serif;
   border-radius: 1em;
   border:2px solid white;
-}
-.aboutMe, .intro, .interests{
-  /* background-color: white; */
 }
 .intro{
   display:flex;
@@ -65,7 +60,7 @@ body {
   color:purple;
 }
 button{
-  background-color:#FEFEFE;
+  background-color:orange;
   color: black;
   border-color:orange;
   border-radius: 0.6rem;
@@ -76,19 +71,19 @@ button{
   opacity:0.8;
 }
 button:hover{
-  background-color: orange;
+  background-color:white;
   color:white;
   border-color: orange;
 }
 button > a{
-  color:rgb(249, 35, 142);
+  color:white;
   text-decoration: none;
   font-weight: 600;
   font-size: 1.5rem;
   text-transform: uppercase;
 }
 button > a:hover{
-  color:white;
+  color:rgb(249, 35, 142);
 }
 .headerImage{
   width:54%;
@@ -109,4 +104,32 @@ button > a:hover{
 }
 .socials img{
   width:70%;
+}
+@media screen and (max-width:1080px) {
+  body {
+    background-size: cover;
+    margin:1% 0 5% 30%;
+  }
+  .businessCard{
+    width:60%;
+  }
+}
+@media screen and (max-width:850px) {
+  body {
+    margin:1% 0 5% 25%;
+  }
+  .businessCard{
+    width:70%;
+    /* margin:1% 0 5% 0; */
+  }
+}
+@media screen and (max-width:570px) {
+  body {
+    background-size: cover;
+    margin:1% 0 5% 10%;
+  }
+  
+  .businessCard{
+    width:90%;
+  }
 }
