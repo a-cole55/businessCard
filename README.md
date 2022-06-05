@@ -1,3 +1,9 @@
+Business Card
+
+![businessCard-compressed2](https://user-images.githubusercontent.com/94746691/172072467-4fd11415-6cd2-476d-8ba0-2b6e8b6401bf.jpg)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
